@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Courier, monospace;
+  font-size: 20px;
+  font-weight: lighter;
+  background: url("car4K.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%100%;
+}
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #000000;
+}
+.bannerContainer {
+  width: 700px;
+  margin: auto;
+  border: 1px solid red;
+}
+.fcc {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 5px;
+  font-family: "Lobster";
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.year {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #444;
+}
+
+.screenFrame {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  width: 1210px;
+  height: 555px;
+  background: #222;
+  background-image: linear-gradient(#444 3%, #222 9%);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-start-start-radius: 50px;
+  border-start-end-radius: 50px;
+  border-right: 3px solid #cacab3;
+  border-left: 3px solid #cacab3;
+  border-bottom: 5px solid #cacab3;
+  box-shadow: inset 4px -2px 4px #888, inset -4px -2px 4px #888;
+}
+.screenInset {
+  position: absolute;
+  top: 95px;
+  left: 103px;
+  width: 1155px;
+  height: 495px;
+  background-image: linear-gradient(to right, #131313, #262626 50%, #131313);
+  border-radius: 30px;
+  border-left: 2px solid #333;
+  box-shadow: inset 2px -1px 4px #333, inset -2px -1px 4px #333,
+    inset -2px 0px 4px #000;
+}
+.screen {
+  position: absolute;
+  top: 103px;
+  left: 112px;
+  width: 1130px;
+  height: 477px;
+  background-image: radial-gradient(#333340, #0c0c14);
+  border-radius: 60px;
+  border-right: 1px solid #333;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  box-shadow: inset 2px -1px 4px #000, inset -2px -1px 4px #000;
+}
+.output {
+  position: absolute;
+  top: 154px;
+  left: 150px;
+  width: 600px;
+  height: 415px;
+  color: #cfc;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: -1px -1px 6px #5a4, 1px 1px 6px #5a4, 1px -1px 6px #5a4,
+    -1px 1px 6px #5a4;
+}
+
+.logo {
+  position: absolute;
+  top: 320px;
+  left: 1165px;
+  width: 240px;
+  height: 60px;
+  padding-left: 10px;
+  background: #222;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px;
+  transform: rotate(90deg);
+}
+.company {
+  display: inline-block;
+  height: 34px;
+  width: 17px;
+  float: left;
+  background: #bbb;
+  margin: 7px 1px;
+  padding-top: 12px;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #2c2c2c;
+  text-align: center;
+  box-shadow: inset 0px -1px 2px #111;
+}
+.model {
+  clear: both;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #c22;
+  margin: 18px 5px;
+  text-shadow: 0 2px 1px #111, -1px -1px #333;
+}
+.footLeft {
+  position: absolute;
+  top: 714px;
+  left: 100px;
+}
+.footRight {
+  position: absolute;
+  top: 714px;
+  left: 1030px;
+}
+.blink {
+  display: none;
+}
+.board {
+  display: none;
+  position: absolute;
+  top: 58px;
+  left: 505px;
+  width: 580px;
+  /*
+	height: 425px;
+  */
+  height: 0px;
+  padding: 10px;
+  color: #dfd;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: -1px -1px 6px #5a4, 1px 1px 6px #5a4, 1px -1px 6px #5a4,
+    -1px 1px 6px #5a4;
+}
+.square {
+  float: left;
+  height: 100px;
+  width: 100px;
+  border: 2px dotted #cfc;
+  font-family: sans-serif;
+  font-size: 80px;
+  text-align: center;
+  padding-top: -55px;
+}
+.top {
+  border-top: none;
+}
+.upperLeft {
+  border-left: none;
+}
+.upperCenter {
+}
+.upperRight {
+  border-right: none;
+}
+.midLeft {
+  border-left: none;
+}
+.midCenter {
+}
+.midRight {
+  border-right: none;
+}
+.lower {
+  border-bottom: none;
+}
+.lowerLeft {
+  border-left: none;
+}
+.lowerRight {
+  border-right: none;
+}
+
+.floatClear {
+  clear: both;
+}
+.gameDialogRight {
+  position: fixed;
+  padding: 0;
+  top: 200px;
+  left: 150px;
+  width: 280px;
+  height: 300px;
+  text-align: left;
+}
+
+.gameDialogBottom {
+  border-top: 3px dotted #cfc;
+  margin-top: 20px;
+  width: 700px;
+  text-align: center;
+}
+.dialogBottom p {
+  float: left;
+  margin-left: 0;
+  margin-top: 25px;
+}
+.player {
+  float: left;
+  width: 20px;
+  height: 30px;
+  margin: 10px 10px;
+  padding: 20px;
+  font-size: 28px;
+  border: 2px dotted #cfc;
+  text-align: center;
+}
+.resetBottom {
+  display: none;
+}
+.reset {
+  border: 2px dotted #cfc;
+  text-align: center;
+  margin-top: 40px;
+  height: 30px;
+  padding: 20px;
+  position: fixed;
+  left: 400px;
+  width: 500px;
+}
+.pickLetter {
+  display: none;
+}
+.X p {
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  left: -2px;
+  font-size: 70px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.O p {
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  left: -2px;
+  font-size: 70px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.player:hover {
+  cursor: pointer;
+}
+
+.player1 {
+  margin-top: -250px;
+  margin-left: 50px;
+}
+.player2 {
+  margin-top: -250px;
+  margin-left: 130px;
+}
+.player3 {
+  margin-top: -250px;
+  margin-left: 210px;
+}
+.img_githab {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 5px;
+  transform: rotate(-90deg);
+}
