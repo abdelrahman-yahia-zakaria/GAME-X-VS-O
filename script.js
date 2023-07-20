@@ -65,7 +65,11 @@ function loadScript() {
   delay += 310;
   clearScreen(delay);
 }
+const playOnlineButton = document.getElementsByClassName("3player");
 
+playOnlineButton.addEventListener("click", function () {
+  // Code to connect the player to the online game
+});
 function newLine(input) {
   setTimeout(function () {
     displayLine(input);
